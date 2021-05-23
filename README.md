@@ -25,8 +25,27 @@ Comparing the school summaries of before and after replacing the grades of Thoma
 
 How does replacing the ninth-grade scores affect the following:
 	Math and reading scores by grade
+	This will affect the average that will need to be calculated for the scores by school spending, size and type.
+
 	Scores by school spending
+	The scores by school spending remained the same. 
+
 	Scores by school size
+	The school size score remained the same since we did not drop students from the data.
+
 	Scores by school type
+	The school type scores reamined the same.
 
 Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+
+1. The first change that needed to be made was having to calculate a new student count. I found the total number of students of all schools and subtracted from the number of
+Thomas High School 9th graders.
+
+2. New averages needed to be calculated to reflect the change in the stundent count in the district summary dataframe. I used the same calculation from the module 
+but divided by the new student count.
+
+3. The calculations for the math, reading and overall percentages needed to be adjusted to only include Thomas grade levels 10th - 12th. I passed a conditional to only include 
+Thomas high school and any student in 1oth, 11th, or 12th grade. I used the same conditionals as the module to get the number of students who passed math, reading and both. 
+Once I calculated the new percentage, I replaced the only Thomas High school with the new math, reading and overall percentages.
+
+4. The data frames by grade level needed to show NaN for Thomas 9th graders. All other averages remained the same as the module. 
