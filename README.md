@@ -12,7 +12,11 @@ Results: Using bulleted lists and images of DataFrames as support, address the f
 How is the district summary affected?
 
 The academic dishonestly did not affect the district summary a lot. The percentages for passing math, reading and overall remained close. 
-(insert screenshots of before dishonetly and after dishonesty)
+
+![District_sum_with_9th_thomas](https://user-images.githubusercontent.com/82127584/119245438-023fc700-bb3f-11eb-9d87-f9a50abf40cc.PNG)
+ District Summary with Thomas High School 9th grade included
+ 
+ 
 
 How is the school summary affected?
 
