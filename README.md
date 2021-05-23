@@ -1,13 +1,13 @@
 # School_District_Analysis
 
 
-Overview of the school district analysis: Explain the purpose of this analysis.
+## Overview of the school district analysis:
 
 The analysis will provide the math and reading scores for all 15 schools. 
 This information has been updated with academic dishonesty of Thomas High school ninth grade. 
 We will be able to see how this academic dishonesty affects the math, rading and overall scores 
 
-Results: Using bulleted lists and images of DataFrames as support, address the following questions.
+## Results:
 
 How is the district summary affected?
 
@@ -16,7 +16,8 @@ The academic dishonestly did not affect the district summary a lot. The percenta
 ![District_sum_with_9th_thomas](https://user-images.githubusercontent.com/82127584/119245438-023fc700-bb3f-11eb-9d87-f9a50abf40cc.PNG)
  District Summary with Thomas High School 9th grade included
  
- 
+ ![district_sum_without_9th_thomas](https://user-images.githubusercontent.com/82127584/119245464-21d6ef80-bb3f-11eb-8658-aed0bde08a43.PNG)
+  District Summary without Thomas High School 9th grade 
 
 How is the school summary affected?
 
@@ -28,19 +29,20 @@ How does replacing the ninth graders’ math and reading scores affect Thomas Hi
 Comparing the school summaries of before and after replacing the grades of Thomas 9th graders, dropped the school from 3rd highest percentage to the 3 lowest school.
 
 How does replacing the ninth-grade scores affect the following:
-	Math and reading scores by grade
-	This will affect the average that will need to be calculated for the scores by school spending, size and type.
 
-	Scores by school spending
-	The scores by school spending remained the same. 
+• Math and reading scores by grade: 
+This will affect the average that will need to be calculated for the scores by school spending, size and type.
 
-	Scores by school size
-	The school size score remained the same since we did not drop students from the data.
+• Scores by school spending: 
+The scores by school spending remained the same. 
 
-	Scores by school type
-	The school type scores reamined the same.
+• Scores by school size: 
+The school size score remained the same since we did not drop students from the data.
 
-Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+• Scores by school type: 
+The school type scores reamined the same.
+
+## Summary: 
 
 1. The first change that needed to be made was having to calculate a new student count. I found the total number of students of all schools and subtracted from the number of
 Thomas High School 9th graders.
